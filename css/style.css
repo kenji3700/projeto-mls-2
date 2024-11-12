@@ -1,0 +1,68 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+body{
+  background-color: #ffffff;
+  color: #000000;
+  h1{
+  font-family:"Edu AU VIC WA NT Dots", cursive;";}
+  font-size: 30px;
+  text-align: center;
+}
+
+
+.header {
+  background-color: #80ffff;
+  text-align: center;
+  padding: 20px;
+}
+<head>
+<title>CSS Website Layout</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {
+  margin: 0;
+}
+
+/* The navbar container */
+.topnav {
+  overflow: hidden;
+  background-color: #e60012;
+}
+
+/* Navbar links */
+.topnav a {
+  float: left;
+  display: block;
+  color: #ffffff;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Links - change color on hover */
+.topnav a:hover {
+  background-color: #414548;
+  color: #989898;
+}
+/* Create three equal columns that float next to each other */
+.column {
+  float: left;
+  width: 33.3%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other on smaller screens (600px wide or less) */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+}

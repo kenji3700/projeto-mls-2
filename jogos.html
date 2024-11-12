@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>ninfan</title>
+  <link href="css/style.css" rel="stylesheet" type="text/css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Dots:wght@400..700&display=swap" rel="stylesheet">
+</head>
+
+  <head>
+  <title>CSS Website Layout</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>
+  * {
+    box-sizing: border-box;
+  }
+
+  body {
+    margin: 0;
+  }
+
+  /* Style the header */
+  .header {
+    background-color: #f1f1f1;
+    padding: 20px;
+    text-align: center;
+  }
+
+  /* Style the top navigation bar */
+  .topnav {
+    overflow: hidden;
+    background-color: #333;
+  }
+
+  /* Style the topnav links */
+  .topnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+
+  /* Change color on hover */
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+
+  /* Create three equal columns that floats next to each other */
+  .column {
+    float: left;
+    width: 25%;
+    padding: 15px;
+  }
+
+  /* Clear floats after the columns */
+  .row::after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  /* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+  @media screen and (max-width:600px) {
+    .column {
+      width: 100%;
+    }
+  }
+  </style>
+  </head>
+  <body>
+
+  <div class="header">
+    <h1>Ninfan</h1>
+  </div>
+
+  <div class="topnav">
+    <a href="index.html">historia</a>
+    <a href="jogos.html">jogos</a>
+    <a href="consoles.html">consoles</a>
+    <a href="impacto.html">impacto</a>
+  </div>
+
+  <div class="row">
+    <div class="column">
+      <h2> Super Mario.</h2>
+      <p>Série de jogos eletrônicos de plataforma, estrelada pelo encanador Mario. Os jogos são ambientados no mundo fictício chamado de Mushroom Kingdom, com Mario sendo o personagem jogável. Muitas vezes ele é acompanhado por Luigi, seu irmão, além de outros personagens jogáveis. Os jogos possuem enredos simples, sendo o objetivo principal ser Mário ter que resgatar a Princesa Peach, sequestrada pelo vião, Bowser</p>
+    </div>
+
+    <div class="column">
+      <h2>Pokemón</h2>
+      <p>A franquia começou com um par de jogos lançados para o Game Boy original, desenvolvidos pela Game Freak e publicados pela Nintendo. Foi criada por Satoshi Tajiri em 1995. Ela é centrada em criaturas ficcionais chamadas "Pokémon", que os humanos capturam e os treinam para lutarem entre si com seus ataques de diversos tipos, incluindo outras diversas mecânicas exploráveis.
+</p>
+    </div>
+
+    <div class="column">
+      <h2>The Legends Of Zelda</h2>
+      <p> Série de jogos eletrônicos pertencente à Nintendo e criada em 1986 por Shigeru Miyamoto e Takashi Tezuka. Os jogos são de ação-aventura e alguns elementos de RPG e resolução de quebra-cabeças.
+        
+        
+</p>
+    </div>
+ <div class="column">
+   <h2>Metroid</h2>
+    <p>  Série de jogos eletrônicos de ação e aventura da Nintendo. A história dos jogos se passa em um cenário ficticio, onde a caçadora de recompensas Samus Aran protege a galáxia dos Piratas Espaciais e tenta obter o poder de criaturas parasitas, chamadas de Metroid.
+  </body>
+</html>
+
